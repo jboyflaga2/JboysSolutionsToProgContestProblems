@@ -14,6 +14,19 @@ Problems encountered:
 
 (maybe the reason is the extra space at the end of each line?)
 4. third submission - still Presentation Error
+                if(isFirstOutput) 
+                {
+                    cout  << ' '; 
+                    isFirstOutput = false;
+                }
+                cout << currentPlace + 1;
+
+        The OUPUT is (which should result to a Wrong Answer; but it's a Presentation Error instead... hmmm):
+         1
+         12
+         2
+         3
+
 5. fourth submission - Accepted
     SOLUTION:        
                 if(!isFirstOutput) { cout  << ' '; }
@@ -46,8 +59,8 @@ void OutputAdjacencyList(vector<vector<int> > adjList)
 
 int main()
 {
-    //freopen("test.in", "r", stdin);
-    //freopen("test.out", "w", stdout);    
+    freopen("test.in", "r", stdin);
+    freopen("test.out", "w", stdout);    
     //freopen("test.err", "w", stderr);
 
     int numOfTestCases;
