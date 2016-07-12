@@ -4,7 +4,14 @@
 
 # Some important things to remember:
 
-1. How to initialize a vector of vectors (used in 10928-MyDearNeighbors.cpp)
+0\. BE CAREFUL!
+
+There are times when the reason for a verdict of "Wrong answer (WA)" in UVA Online Judge is only because a newline at the end of your output is missing.
+
+Example problems where this is the case:
+ - 793-NetworkConnections.cpp
+
+1\. How to initialize a vector of vectors (used in 10928-MyDearNeighbors.cpp)
 ``` C++
 // assign N number of vector<int> to the adjacencyList
 vector<vector<int> > adjacencyList(N, vector<int>());
@@ -23,4 +30,6 @@ adjacencyList.assign(N, ListOfNeighboringVertices());
 ```
 
 
-2. Be careful when using `getline()` after using `cin` - http://mathbits.com/MathBits/CompSci/APstrings/APgetline.htm
+2\. Be careful when using `getline()` after using `cin` - http://mathbits.com/MathBits/CompSci/APstrings/APgetline.htm
+
+Use `cin.ignore(100,'\n');` - used in 10928-MyDearNeighbors.cpp
