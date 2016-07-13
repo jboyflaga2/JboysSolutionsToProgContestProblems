@@ -1,0 +1,10 @@
+for range 2 3
+     -1 -1
+    indexOfMinValue = 1
+for range 1 10
+     -1 -2 -1 -2 -3 -4 -1 -1 -2 -3
+    indexOfMinValue = 5
+for range 5 10
+     -1 -2 -1 -1 -2 -3
+    indexOfMinValue = 5
+for range 2 2
