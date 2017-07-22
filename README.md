@@ -2,6 +2,10 @@
 
 
 
+## NOTE: [I already transferred my files for my answers to competitive programming problems to my new Github account, `jeremiahflaga`](https://github.com/jeremiahflaga/competitive-programming)
+
+
+
 # Some important things to remember:
 
 ### 0. BE CAREFUL!
